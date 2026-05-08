@@ -1,0 +1,21 @@
+[package]
+name = "beam-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <you@example.com>"]
+description = "Euler-Bernoulli beam solver using the direct stiffness method"
+license = "MIT"
+
+[[bin]]
+name = "beam-rs"
+path = "src/main.rs"
+
+[dependencies]
+
+[dev-dependencies]
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[lints.clippy]
+all = "warn"
